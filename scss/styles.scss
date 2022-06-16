@@ -1,0 +1,17 @@
+.container {
+    background: red;
+    font-size: 20px;
+    padding: 20px 10px;
+
+    .text {
+        background: green;
+    }
+
+    .link {
+        background-color: cyan;
+
+        @media (max-width: 960px) {
+            background: purple;
+        }
+    }
+}
